@@ -34,3 +34,7 @@ body {
 .button.jokeBtn:hover {
   background-color: orangered;
 }
+
+.footer {
+  transition: all 500ms;
+}
