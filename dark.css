@@ -2,14 +2,16 @@
   background-color: #0d1317;
 }
 .button.toggleDark {
-  background-color: #0d1317;
-  color: white;
+  background-color: white;
+  border: 2px solid #0d1317;
+  color: #0d1317;
   transition: all 500ms;
 }
 
 .button.toggleDark:hover {
-  background-color: white;
-  color: #0d1317;
+  background-color: #0d1317;
+  border: 2px solid white;
+  color: white;
 }
 
 .cardDark {
