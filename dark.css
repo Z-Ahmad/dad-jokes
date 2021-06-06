@@ -32,3 +32,7 @@
   background-color: #171a1d;
   color: white;
 }
+
+.footer.footerDark a:hover {
+  color: skyblue;
+}
