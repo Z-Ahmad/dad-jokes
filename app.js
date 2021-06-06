@@ -33,6 +33,8 @@ const images = [
   },
 ]
 
+const darkToggle = document.querySelector(".toggleDark")
+const body = document.querySelector("body")
 const jokeImg = document.querySelector(".img")
 const jokeText = document.querySelector(".jokeText")
 const jokeBtn = document.querySelector(".jokeBtn")
@@ -69,4 +71,8 @@ jokeBtn.addEventListener("click", async () => {
   } catch {
     error()
   }
+})
+
+darkToggle.addEventListener("click", () => {
+  body.classList.toggle("bodyDark")
 })

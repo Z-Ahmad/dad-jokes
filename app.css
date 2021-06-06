@@ -7,6 +7,22 @@
   min-height: 100vh;
 }
 
+body {
+  transition: background-color 500ms;
+}
+
+.bodyDark {
+  background-color: #0d1317;
+}
+
+.card {
+  box-shadow: 10px 10px 10px gray;
+  border: 2px solid orangered;
+}
+
+.button {
+  margin: auto;
+}
 .button.jokeBtn {
   background-color: orange;
   transition: background-color 500ms;
@@ -14,4 +30,9 @@
 
 .button.jokeBtn:hover {
   background-color: orangered;
+}
+
+.button.toggleDark {
+  background-color: #0d1317;
+  color: white;
 }
