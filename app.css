@@ -6,3 +6,12 @@
   text-align: center;
   min-height: 100vh;
 }
+
+.button.jokeBtn {
+  background-color: maroon;
+  transition: background-color 500ms;
+}
+
+.button.jokeBtn:hover {
+  background-color: red;
+}
