@@ -1,0 +1,27 @@
+.bodyDark {
+  background-color: #0d1317;
+}
+.button.toggleDark {
+  background-color: #0d1317;
+  color: white;
+  transition: all 500ms;
+}
+
+.button.toggleDark:hover {
+  background-color: white;
+  color: #0d1317;
+}
+
+.cardDark {
+  background-color: #0d1317;
+  border: 2px solid #0353a4;
+  color: white;
+}
+
+.button.jokeBtnDark {
+  background-color: #0353a4;
+}
+
+.button.jokeBtnDark:hover {
+  background-color: #0466c8;
+}
