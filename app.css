@@ -8,10 +8,10 @@
 }
 
 .button.jokeBtn {
-  background-color: maroon;
+  background-color: orange;
   transition: background-color 500ms;
 }
 
 .button.jokeBtn:hover {
-  background-color: red;
+  background-color: orangered;
 }
