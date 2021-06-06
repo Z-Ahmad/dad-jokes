@@ -44,6 +44,8 @@ const apiLink = (document.createElement("a").href =
   "https://icanhazdadjoke.com/")
 let requests = 0
 const limit = 50
+const stop =
+  "https://images.unsplash.com/photo-1546617885-4822125f891e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
 
 const fetchJoke = async () => {
   const jokeObject = await (
@@ -71,6 +73,9 @@ const limitReached = () => {
   jokeText.innerHTML = `That's enough! Go to the 
     <a href=${apiLink}>icanhazdadjoke</a>
    site for more jokes!`
+  jokeImg.src = stop
+  jokeBtn.disabled = true
+  jokeBtn
 }
 
 jokeBtn.addEventListener("click", async () => {
